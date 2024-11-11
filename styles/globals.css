@@ -5,6 +5,12 @@ body {
   font-family: "Young Serif", serif;
 }
 
+body {
+
+  background-image: url("/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%) ;
+}
+
 
 * {
   box-sizing: border-box;
