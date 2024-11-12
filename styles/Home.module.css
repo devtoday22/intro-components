@@ -86,6 +86,14 @@
   text-decoration: none;
   color: hsl(0, 100%, 74%);
 }
+.errorText {
+
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 10px;
+  color: red;
+}
 /* Mobile responsive */
 
 @media only screen and (max-width: 750px) {
@@ -136,6 +144,14 @@
   margin-top: 4%;
   padding-top: 20px;
   padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .errorText {
+
+  padding: 0;
+  text-align: left;
  
   }
 }
